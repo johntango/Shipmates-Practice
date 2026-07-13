@@ -3,3 +3,11 @@ export function practiceMessage(name = "crewmate", shipName) {
 
   return `Welcome aboard, ${name}.${assignment}`;
 }
+
+export function crewSummary(names) {
+  if (names.length === 0) {
+    return "No crewmates assigned.";
+  }
+
+  return `Crewmates: ${names.join(", ")}.`;
+}
