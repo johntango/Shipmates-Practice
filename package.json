@@ -1,0 +1,13 @@
+{
+  "name": "shipmates-practice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disposable practice repository for the ShipMates workflow",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
