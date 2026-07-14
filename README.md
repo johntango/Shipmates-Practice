@@ -20,3 +20,9 @@ It must not contain production credentials or production data.
 ```sh
 npm test
 ```
+
+```js
+import { crewCount } from "./src/message.js";
+
+crewCount(["Alice", "Bob"]); // 2
+```
