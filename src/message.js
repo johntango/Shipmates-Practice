@@ -11,3 +11,7 @@ export function crewSummary(names) {
 
   return `Crewmates: ${names.join(", ")}.`;
 }
+
+export function crewCount(names) {
+  return names.length;
+}
